@@ -60,12 +60,11 @@ button {
 /* REQUESTS ITEM*/
 .request__items {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax( 30rem,1fr),);
   gap: 1.5rem;
 }
 
 .request__item {
-  width: 32rem;
   padding: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
