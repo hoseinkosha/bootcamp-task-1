@@ -126,6 +126,7 @@ button {
 .item__img {
   width: 3rem;
   height: 3rem;
+  object-fit: cover;
   border-radius: var(--border-radius-lg);
 }
 .item__spe p {
