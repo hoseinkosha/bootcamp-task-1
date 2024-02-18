@@ -137,6 +137,7 @@ button {
   color: var(--color-secondary-0);
   padding: 1rem 2rem;
   font-size: 1.2rem;
+  margin-right: 2.5rem;
 }
 .item__btn:hover {
   background-color: #115e59;
